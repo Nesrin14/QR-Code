@@ -1,0 +1,17 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background:  hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-size:  15px;
+}
+:root{
+    --bgcolor:hsl(212, 45%, 89%);
+}
+.background-main{
+    background-color: var(--bgcolor);
+}
+.shadow {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
